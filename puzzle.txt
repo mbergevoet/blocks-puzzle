@@ -1,0 +1,18 @@
+Hi, 
+
+We are so excited to have you in our LessonUp recruitment process!
+
+We have a small logic puzzle for you, that will help us a little to determine your current skill level and to give us something to talk about during the next interview. We would like to ask you to write the solution in JavaScript or TypeScript. If you want to write it in a different language, please tell us why, and we can talk about it.
+
+You’re on route to the LessonUp office and your GPS broke. 
+You know from previous visits to The Hague that there is a city-wide grid with signs you can follow and that if you pass a sign that says R6 you will need to turn right 90 degrees and follow the street for 6 blocks. The same goes for L4, turn left 90 degrees and follow the street for 4 blocks.
+
+Calculate how many blocks you are removed from the LessonUp office.
+
+Example:
+-	If you just pass the signs R2 and L3, that means that you are 2 blocks east and 3 blocks north away from the office, so a total of 5 blocks.
+-	L2, L2, L2 means that you are 2 blocks south from your starting position
+-	R5, L5, R5, R3 is 12 blocks
+
+These are the signs you are going to pass:
+R3, L5, R4, R3, L3, L3, R2, R4, R1, L2, L5, R5, R5, R2, R2, R1, L2, L3, L2, L1, R3, L5, R187, R1, R2, L1, L3, R4, L4, R49, L4, R2, R72, L3, L2, R3, R3, R192, L3, L4, L4, L3, L4, R4, R5, L1, L5, L4, R1, L2, R4, L4, L3, R4, L5, L5, R5, R3, R5, L2, L4, R4, L1, R3, R1, L1, L2, R2, R3, L3, R5, R2, R5, R3, R5, L3, R5, L3, R1, R2, R2, L4, L5, L1, L2, R4, R3, R3, R2, L1, L2, R5, R5, L2, R3, L4, L5, L5, L4, R4, L2, R1, R1, L2, L3, L2, R2, L4, R3, R2, L2, L3, L6, L4, L2, R2, L3, L4, L2, L5, L3, R4, R3, L5, L1, L3, R4, R5, L4, L4, L6, L1, R2, L3, L2, L2, R2, L2

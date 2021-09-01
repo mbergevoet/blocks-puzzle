@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript Puzzle</title>
+</head>
+
+<body>
+    <header>
+        <h1>Recruitement puzzle</h1>
+    </header>
+    <main>
+        <article>
+            <p>
+                You’re on route to the LessonUp office and your GPS broke.
+                You know from previous visits to The Hague that there is a city-wide grid with signs you can follow and
+                that if you pass a sign that says R6 you will need to turn right 90 degrees and follow the street for 6
+                blocks. The same goes for L4, turn left 90 degrees and follow the street for 4 blocks.
+            </p>
+            <p>
+                Calculate how many blocks you are removed from the LessonUp office.
+            </p>
+            <p>
+                Example:
+            <ul>
+                <li>If you just pass the signs R2 and L3, that means that you are 2 blocks east and 3 blocks north away
+                    from the office, so a total of 5 blocks.</li>
+                <li>L2, L2, L2 means that you are 2 blocks south from your starting position</li>
+                <li>R5, L5, R5, R3 is 12 blocks</li>
+            </ul>
+            </p>
+            <p>
+                These are the signs you are going to pass:
+            </p>
+            <p>
+                R3, L5, R4, R3, L3, L3, R2, R4, R1, L2, L5, R5, R5, R2, R2, R1, L2, L3, L2, L1, R3, L5, R187, R1, R2,
+                L1, L3, R4, L4, R49, L4, R2, R72, L3, L2, R3, R3, R192, L3, L4, L4, L3, L4, R4, R5, L1, L5, L4, R1, L2,
+                R4, L4, L3, R4, L5, L5, R5, R3, R5, L2, L4, R4, L1, R3, R1, L1, L2, R2, R3, L3, R5, R2, R5, R3, R5, L3,
+                R5, L3, R1, R2, R2, L4, L5, L1, L2, R4, R3, R3, R2, L1, L2, R5, R5, L2, R3, L4, L5, L5, L4, R4, L2, R1,
+                R1, L2, L3, L2, R2, L4, R3, R2, L2, L3, L6, L4, L2, R2, L3, L4, L2, L5, L3, R4, R3, L5, L1, L3, R4, R5,
+                L4, L4, L6, L1, R2, L3, L2, L2, R2, L2
+            </p>
+        </article>
+        <article>
+            <button class="calcBtn">Calculate</button>
+            <p>I am <span class="output">......</span> city blocks away from the LessonUp Office</p>
+        </article>
+
+    </main>
+    <script type="module" src="js/script.js" defer></script>
+</body>
+
+</html>
